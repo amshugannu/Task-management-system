@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White container background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue heading color */
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #28a745; /* Green button background */
+  color: #fff; /* White button text color */
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f1f1; /* Light background for task items */
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d6d6d6; /* Light border color */
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333; /* Dark title color */
+}
+
+.description {
+  color: #555; /* Medium text color */
+}
+
+li button {
+  background-color: #dc3545; /* Red button background */
+  color: #fff; /* White button text color */
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+li button.edit {
+  background-color: #ffc107; /* Yellow button background for edit */
+}
